@@ -118,7 +118,7 @@ function App() {
       </div>
       <Modal show={show} onHide={handleClose}>
         <Modal.Header closeButton>
-          <Modal.Title>Xabar JO'natildi </Modal.Title>
+          <Modal.Title>Xabar Jo'natildi </Modal.Title>
         </Modal.Header>
         <Modal.Body>Siz bilan Tez orada bog'lanaman</Modal.Body>
         <Modal.Footer>
