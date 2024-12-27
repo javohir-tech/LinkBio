@@ -85,7 +85,7 @@ function App() {
           <img src={logo} className='img-fluid rounded-pill' alt="logo image" />
         </div>
         <div className='bio-btns d-flex flex-column flex-md-row justify-content-center'>
-          <a target='_blank' href="https://t.me/Suvonov_Javoh1r" className='btn btn-primary d-flex align-items-center'><PiTelegramLogoBold /><p className='mb-0 ms-1'>Instagram</p></a>
+          <a target='_blank' href="https://t.me/Suvonov_Javoh1r" className='btn btn-primary d-flex align-items-center'><PiTelegramLogoBold /><p className='mb-0 ms-1'>Telegram</p></a>
           <a target='_blank' href="https://www.instagram.com/suvonov_javohir1/" className='btn btn-danger d-flex align-items-center'><FaInstagram /><p className='mb-0 ms-1'>Instagram</p></a>
           <a target='_blank' href="tel:+998771232904" className='btn btn-success d-flex align-items-center'><BsFillTelephoneFill /><p className='mb-0 ms-1'>Telefon</p></a>
           <a target='_blank' href="https://www.linkedin.com/in/javohir-suvonov-a98925303/" className='btn btn-info d-flex align-items-center'><RiLinkedinFill style={{ color: "white" }} /><p className='mb-0 ms-1 text-light'>LinkedIn</p></a>
