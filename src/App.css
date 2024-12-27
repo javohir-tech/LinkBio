@@ -1,0 +1,61 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 1rem;
+  text-align: center;
+}
+
+.logo-image {
+  img {
+    width: 126px;
+    height: 126px;
+
+  }
+}
+
+.box {
+  padding: 30px 40px;
+  background: url("../src/assets/wallpaper.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.bio-btns {
+  gap: 10px;
+}
+
+label {
+  font-weight: 700;
+  font-size: 16px;
+}
+
+.form-control {
+  color: white; /* Oq matn */
+  background-color: #333; /* Qora fon */
+  border: 1px solid #555; /* Yengil qora chiziq */
+}
+
+.form-control:focus {
+  background-color: #444; /* Fokusda fonni biroz ochroq qilish */
+  border-color: #007bff; /* Fokusda chiziqni ko'k rangga o'zgartirish */
+}
+
+::placeholder {
+  color: white; /* Yengil kulrang rangda placeholder */
+}
+
+/* Dark mode uchun inputlarda placeholder */
+.form-control::placeholder {
+  color: white; /* Placeholderni oqra-kulrang rangga o'zgartirish */
+}
+
+@media(max-width:576px) {
+  .box {
+    padding: 10px;
+    background: url("../src/assets/wallPaper2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+}
