@@ -93,7 +93,7 @@ function App() {
             <BiLogoGmail style={{ color: "white" }} />
             <p className='mb-0 ms-1 text-light'>Email</p>
           </a>
-          <a target='_blank' href="https://github.com/javohir-tech" className='btn btn-dark d-flex align-items-center'><FaGithub style={{ color: "white" }} /><p className='mb-0 ms-1'>GitHUb</p></a>
+          <a target='_blank' href="https://github.com/javohir-tech" className='btn btn-dark d-flex align-items-center'><FaGithub style={{ color: "white" }} /><p className='mb-0 ms-1'>GitHub</p></a>
         </div>
         <div className='text-warning mt-3'>
           <h2 className='mb-0'>Agar bog'lana olmasangiz habar qoldiring </h2>
